@@ -8,6 +8,7 @@ import lombok.Data;
 @Data
 
 public class BotConfig {
+	
     @Value("${bot.name}")
     String botName;
     @Value("${bot.token}")

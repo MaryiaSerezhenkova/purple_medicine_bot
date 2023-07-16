@@ -22,6 +22,7 @@ public class Bot extends TelegramLongPollingBot {
 
     final int RECONNECT_PAUSE =10000;
 
+    
 	
 	public String getBotUsername() {
 		return botConfig.getBotName();
